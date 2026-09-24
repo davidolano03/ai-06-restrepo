@@ -1,0 +1,3 @@
+'AR18RaceManMachine.staticResponseAlgebra' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AR18RaceManMachine.staticResponseExistence' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AR18RaceManMachine.wageDeclinePossibleAlgebra' depends on axioms: [propext, Classical.choice, Quot.sound]

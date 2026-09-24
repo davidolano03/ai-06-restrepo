@@ -1,0 +1,12 @@
+{
+  "schema": 1,
+  "official_url": "https://www.nber.org/papers/w22252",
+  "pdf_url": "https://www.nber.org/system/files/working_papers/w22252/w22252.pdf",
+  "source_version": "May 2016, Revised June 2017",
+  "pages": 87,
+  "pdf_sha256": "441d01202afd56ef8002fc24ffc2beb51191741c0b5accb11d2534620dd616b7",
+  "text_sha256": "f4f63ec95621e51a72bba0effd02e23b9f9172dce59505802a85d20c7968c4df",
+  "extraction": "pypdf; extracted once by coordinator; PDF PAGE markers added",
+  "arxiv_search": "not yet performed; intake requirement remains open",
+  "status": "source pinned; workflow intake freeze incomplete"
+}

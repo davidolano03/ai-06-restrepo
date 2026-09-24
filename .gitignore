@@ -1,0 +1,14 @@
+__pycache__/
+*.pyc
+.work/
+*.aux
+*.log
+*.nav
+*.out
+*.snm
+*.toc
+*.vrb
+!logs/
+
+# Preserve source-root exclusion from AppliedModelingLib.
+/lean/source.txt

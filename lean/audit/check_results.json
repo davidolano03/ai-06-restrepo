@@ -1,0 +1,18 @@
+{
+  "date": "2026-09-24",
+  "lean": "4.30.0-rc2",
+  "proof_build": {
+    "command": "lake build +AR18RaceManMachine.ProofInterface",
+    "exit_code": 0,
+    "log": "narrow-build-final.txt"
+  },
+  "required_fast_check": {
+    "command": "python3 scripts/paper_contribution.py check AR18RaceManMachine --fast",
+    "windows_invocation": "Bundled Python ran external python-compat/run_paper_contribution.py, which invokes scripts.paper_contribution with the same arguments.",
+    "exit_code": 0,
+    "log": "fast-check.txt"
+  },
+  "semantic_closeout": "not completed",
+  "original_source_theorems_proved": 0,
+  "support_contracts_proved": 3
+}
