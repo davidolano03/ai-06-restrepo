@@ -17,7 +17,7 @@ Se generan `results/verification.json`, el barrido CSV y las figuras PDF/PNG. No
 tectonic -k --keep-logs presentation.tex
 ```
 
-Se utilizó Tectonic 0.17.0. También puede compilarse con una distribución LaTeX y los paquetes del preámbulo. La presentación tiene 16 diapositivas sin animaciones. Para incorporar la evidencia manuscrita, guardar una foto auténtica como `hand/derivation.jpg` y recompilar; revisar su legibilidad.
+Se utilizó Tectonic 0.17.0. También puede compilarse con una distribución LaTeX y los paquetes del preámbulo. La presentación tiene 17 diapositivas principales y dos páginas de apéndice, sin animaciones. Las fotos originales están en `hand/derivacion-01.jpg` y `hand/derivacion-02.jpg`. El Beamer incorpora detalles ampliados y las páginas completas; recompilar conserva esa disposición.
 
 ## Lean
 

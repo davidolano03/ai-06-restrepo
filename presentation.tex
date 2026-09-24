@@ -213,15 +213,46 @@ theorem solve_linearized_system
 \small Lean 4.30.0-rc2: focused proof build \textbf{exit 0}; required \texttt{--fast} check \textbf{exit 0}. Full semantic audit and source theorem coverage remain open.
 \end{frame}
 
-\begin{frame}{Checking the AI's headline}
-\textbf{Claim to test:} ``Automation necessarily lowers wages and labor's share.''
+\begin{frame}{Hand check: employment and labor share}
+\begin{columns}[T]
+\column{.55\textwidth}
+\centering
+\includegraphics[width=\linewidth,height=.74\textheight,keepaspectratio,trim=0 0 0 650,clip]{hand/derivacion-01.jpg}
+\par\scriptsize Detail from the student's first handwritten page.
+\column{.42\textwidth}
+\small With $K,N$ fixed and $I^*=I<\widetilde I$:
 \[
-\frac{d\ln W}{dI}=g_I-D_I,\qquad
-\frac{ds_L}{dI}=s_L(1-s_L)(1+\varepsilon_L)\frac{d\ln\omega}{dI}.
+\frac{d\ln\omega}{dI}=-\frac{\Lambda_I}{\sh+\varepsilon_L}<0.
 \]
-\textbf{Verdict:} the wage claim is false in general. The share claim needs the static model's assumptions and a binding technology constraint. An inactive frontier has no marginal effect.
+\[
+\frac{d\ln L}{dI}=\varepsilon_L\frac{d\ln\omega}{dI}<0.
+\]
+\[
+\frac{ds_L}{dI}=s_L(1-s_L)(1+\varepsilon_L)
+\frac{d\ln\omega}{dI}<0.
+\]
+\textbf{Verdict:} displacement lowers employment and labor's share under the stated conditions. This does not determine the wage sign.
+\end{columns}
+\end{frame}
+
+\begin{frame}{Hand check: the wage claim}
+\begin{columns}[T]
+\column{.55\textwidth}
+\centering
+\includegraphics[width=\linewidth,height=.70\textheight,keepaspectratio,trim=0 0 0 820,clip]{hand/derivacion-02.jpg}
+\par\scriptsize Detail from the student's second handwritten page.
+\column{.42\textwidth}
+\small \textbf{Claim to test:} ``Automation necessarily lowers wages.''
+\[
+\frac{d\ln W}{dI}=g_I-D_I,
+\]
+\[
+D_I=(1-s_L)\frac{\Lambda_I}{\sh+\varepsilon_L}>0.
+\]
+\textbf{Verdict:} false in general. The wage rises exactly when $g_I>D_I$.
 \par\medskip
-\IfFileExists{hand/derivation.jpg}{\centering\includegraphics[height=.37\textheight]{hand/derivation.jpg}}{\color{rust}\small Handwritten evidence pending: insert the student's genuine derivation photo here. The typed equations are not a substitute for that requirement.}
+Productivity holds $K,L$ fixed; the equilibrium wage response allows employment to adjust. An inactive automation frontier has no marginal effect.
+\end{columns}
 \end{frame}
 
 \begin{frame}{What the exercise establishes}
@@ -234,5 +265,11 @@ theorem solve_linearized_system
 \par\medskip
 \small Next research question: which measurable task characteristics predict large automation cost savings, and which predict primarily displacement? The present simulation supplies no causal estimate.
 \end{frame}
+\appendix
+\begin{frame}{Handwritten derivation: original page 1}
+\centering\includegraphics[height=.84\textheight]{hand/derivacion-01.jpg}
+\end{frame}
+\begin{frame}{Handwritten derivation: original page 2}
+\centering\includegraphics[height=.84\textheight]{hand/derivacion-02.jpg}
+\end{frame}
 \end{document}
-
