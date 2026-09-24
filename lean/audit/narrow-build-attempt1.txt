@@ -1,0 +1,31 @@
+✖ [856/858] Building AR18RaceManMachine.MainTheorems (14s)
+trace: .> LEAN_PATH=C:\Users\Bienvenido\Documents\GitHub\ai-05-ide\.work\AppliedModelingLib\.lake\packages\Cli\.lake\build\lib\lean;C:\Users\Bienvenido\Documents\GitHub\ai-05-ide\.work\AppliedModelingLib\.lake\packages\batteries\.lake\build\lib\lean;C:\Users\Bienvenido\Documents\GitHub\ai-05-ide\.work\AppliedModelingLib\.lake\packages\Qq\.lake\build\lib\lean;C:\Users\Bienvenido\Documents\GitHub\ai-05-ide\.work\AppliedModelingLib\.lake\packages\aesop\.lake\build\lib\lean;C:\Users\Bienvenido\Documents\GitHub\ai-05-ide\.work\AppliedModelingLib\.lake\packages\proofwidgets\.lake\build\lib\lean;C:\Users\Bienvenido\Documents\GitHub\ai-05-ide\.work\AppliedModelingLib\.lake\packages\importGraph\.lake\build\lib\lean;C:\Users\Bienvenido\Documents\GitHub\ai-05-ide\.work\AppliedModelingLib\.lake\packages\LeanSearchClient\.lake\build\lib\lean;C:\Users\Bienvenido\Documents\GitHub\ai-05-ide\.work\AppliedModelingLib\.lake\packages\plausible\.lake\build\lib\lean;C:\Users\Bienvenido\Documents\GitHub\ai-05-ide\.work\AppliedModelingLib\.lake\packages\mathlib\.lake\build\lib\lean;C:\Users\Bienvenido\Documents\GitHub\ai-05-ide\.work\AppliedModelingLib\.lake\packages\cslib\.lake\build\lib\lean;C:\Users\Bienvenido\Documents\GitHub\ai-05-ide\.work\AppliedModelingLib\.lake\packages\Vlasov\Vlasov\.lake\build\lib\lean;C:\Users\Bienvenido\Documents\Codex\2026-09-24\ho\work\AppliedModelingLib\.lake\build\lib\lean c:\Users\Bienvenido\Documents\GitHub\ai-05-ide\.work\elan\toolchains\leanprover--lean4---v4.30.0-rc2\bin\lean.exe C:\Users\Bienvenido\Documents\Codex\2026-09-24\ho\work\AppliedModelingLib\papers\AR18RaceManMachine\MainTheorems.lean -o C:\Users\Bienvenido\Documents\Codex\2026-09-24\ho\work\AppliedModelingLib\.lake\build\lib\lean\AR18RaceManMachine\MainTheorems.olean -i C:\Users\Bienvenido\Documents\Codex\2026-09-24\ho\work\AppliedModelingLib\.lake\build\lib\lean\AR18RaceManMachine\MainTheorems.ilean -c C:\Users\Bienvenido\Documents\Codex\2026-09-24\ho\work\AppliedModelingLib\.lake\build\ir\AR18RaceManMachine\MainTheorems.c --setup C:\Users\Bienvenido\Documents\Codex\2026-09-24\ho\work\AppliedModelingLib\.lake\build\ir\AR18RaceManMachine\MainTheorems.setup.json --json
+error: papers/AR18RaceManMachine/MainTheorems.lean:22:4: linarith failed to find a contradiction
+case left.h1.h
+s σ ε g z w r ell : ℝ
+hden : σ + ε ≠ 0
+hdemand : σ * (w - r) + ell = z
+hsupply : ell = ε * (w - r)
+haccount : s * w + (1 - s) * r = g
+hrel : w - r = z / (σ + ε)
+a✝ : w < g + (1 - s) * (z / (σ + ε))
+⊢ False
+failed
+error: papers/AR18RaceManMachine/MainTheorems.lean:24:4: linarith failed to find a contradiction
+case right.left.h1.h
+s σ ε g z w r ell : ℝ
+hden : σ + ε ≠ 0
+hdemand : σ * (w - r) + ell = z
+hsupply : ell = ε * (w - r)
+haccount : s * w + (1 - s) * r = g
+hrel : w - r = z / (σ + ε)
+a✝ : r < g - s * (z / (σ + ε))
+⊢ False
+failed
+warning: papers/AR18RaceManMachine/MainTheorems.lean:35:4: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+error: Lean exited with code 1
+Some required targets logged failures:
+- AR18RaceManMachine.MainTheorems
+error: build failed

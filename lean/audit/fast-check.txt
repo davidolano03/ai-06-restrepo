@@ -1,0 +1,4 @@
++ lake build +AR18RaceManMachine.PaperInterface
+Build completed successfully (857 jobs).
++ git diff --check -- papers/AR18RaceManMachine papers/AR18RaceManMachine.lean lakefile.toml ':(exclude)papers/AR18RaceManMachine/source/'
+warning: in the working copy of 'lakefile.toml', LF will be replaced by CRLF the next time Git touches it
