@@ -1,0 +1,15 @@
+{
+  "source": "Original photographs supplied by the student on 2026-09-24",
+  "files": [
+    {
+      "file": "hand/derivacion-01.jpg",
+      "sha256": "003fc5602b9b9d7514cea2726749271d4e9150a7774ee737a4d8e2126bf5fa60",
+      "original_bytes_preserved": true
+    },
+    {
+      "file": "hand/derivacion-02.jpg",
+      "sha256": "73726d8531ed8145363360ee01173ced26ffeabeee7a1fb5c5c5daf6dacf53f6",
+      "original_bytes_preserved": true
+    }
+  ]
+}

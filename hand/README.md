@@ -1,7 +1,10 @@
-# Evidencia manuscrita pendiente
+# Derivación manuscrita
 
-Este directorio debe contener una fotografía real de la derivación hecha por el estudiante. No se ha generado una imagen que simule escritura manual.
+Fotografías originales entregadas por el estudiante el 24 de septiembre de 2026:
 
-Derivar en una hoja los pasos de `analysis/derivacion.md`: diferenciar la ecuación (13), obtener el signo de la participación laboral y aislar la condición $g_I>D_I$ para que aumente el salario. Anotar qué se mantiene fijo y distinguir $I$ de $I^*$. Adjuntar una foto legible e incorporarla a la diapositiva de contraste con la IA.
+- [Hoja 1](derivacion-01.jpg): condiciones, demanda relativa, empleo y participación laboral.
+- [Hoja 2](derivacion-02.jpg): productividad, condición de precios y descomposición del salario entre productividad y desplazamiento.
 
-Hasta incorporar esa foto, este requisito de la entrega está pendiente.
+Ambas imágenes se conservan sin modificar sus bytes. `provenance.json` registra sus hashes SHA-256. El Beamer muestra detalles ampliados mediante recortes de maquetación y las dos páginas completas en el apéndice. Los recortes no alteran las fotografías originales.
+
+La notación manuscrita de la intensidad del desplazamiento se corresponde con $\Lambda_I$ en las ecuaciones tipografiadas. El veredicto de la presentación distingue el efecto sobre la participación laboral del signo condicionado del salario.

@@ -18,7 +18,9 @@ Las diapositivas están en inglés. Estas notas ayudan a preparar la exposición
 | 12 | 1:30 | Condiciones del BGP; estabilidad local frente a global |
 | 13 | 2:00 | Leer ecuaciones, binders y prueba Lean; explicar eq_div_iff y denominador |
 | 14 | 1:30 | Build exitoso frente a cobertura incompleta del modelo |
-| 15 | 1:30 | Mostrar foto real cuando esté disponible y dar el veredicto condicionado |
-| 16 | 0:30 | Conclusión y posible pregunta de investigación |
+| 15 | 0:45 | Primera foto: demanda relativa, empleo y participación laboral |
+| 16 | 0:45 | Segunda foto: productividad, desplazamiento y veredicto sobre el salario |
+| 17 | 0:30 | Conclusión y posible pregunta de investigación |
+| 18–19 | Apéndice | Fotografías completas para preguntas; fuera de los 20 minutos |
 
 Total: **20 minutos**. Si preguntan qué falta en Lean: no está probado el puente desde las condiciones primitivas y el equilibrio continuo hasta las tres ecuaciones de respuesta. Si preguntan por el check: el rápido pasó con código 0, pero no es una auditoría semántica completa.
